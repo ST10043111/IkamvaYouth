@@ -1,0 +1,35 @@
+.App-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center the text */
+  }
+  
+  .App-header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Increase font size */
+  }
+  
+  nav {
+    margin-top: 10px; /* Space between title and nav */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between items */
+  }
+  
+  nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

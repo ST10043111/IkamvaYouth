@@ -1,0 +1,108 @@
+
+/* Newsletter styles */
+.newsletter-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 2rem; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    margin: 2rem 0; /* Margin above and below the container */
+}
+
+.newsletter-container form {
+    display: flex; /* Flexbox layout for the form */
+    gap: 1rem; /* Space between form elements */
+}
+
+.subscription-status {
+    color: green; /* Green text for subscription status */
+    margin-top: 1rem; /* Space above the status message */
+}
+
+/* Social Media styles */
+.social-media-container {
+    padding: 1rem; /* Padding around the social media container */
+}
+
+.social-icons {
+    display: flex; /* Flexbox layout for social icons */
+    gap: 1rem; /* Space between icons */
+    margin-top: 1rem; /* Space above the icons */
+}
+
+.social-icons a:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Staff Carousel styles */
+.staff-carousel {
+    padding: 3rem 0; /* Vertical padding for the carousel */
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.staff-container {
+    text-align: center; /* Center text within the container */
+    padding: 2rem; /* Padding around the staff container */
+}
+
+.gold-circle {
+    width: 150px; /* Fixed width for the circle */
+    height: 150px; /* Fixed height for the circle */
+    border-radius: 50%; /* Make it circular */
+    margin: 0 auto; /* Center the circle */
+    overflow: hidden; /* Hide overflow content */
+    border: 3px solid gold; /* Gold border */
+}
+
+.detail-box {
+    margin-top: 1rem; /* Space above the detail box */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .newsletter-container form {
+        flex-direction: column; /* Stack form elements vertically on small screens */
+    }
+    
+    .social-icons {
+        justify-content: center; /* Center social icons on small screens */
+    }
+}
+
+
+/* Header styles */
+.App-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center the text */
+  }
+  
+  .App-header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Increase font size */
+  }
+  
+  nav {
+    margin-top: 10px; /* Space between title and nav */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between items */
+  }
+  
+  nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
